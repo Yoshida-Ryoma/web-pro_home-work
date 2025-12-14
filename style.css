@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h1 {
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h2 {
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h3 {
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin-bottom: 65px;
+}
+
+header>h3 {
+    font-size: 5rem;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+header>ul>li {
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+header>ul>li>a {
+    transition: 0.3s;
+    display: inline-block;
+    transform-origin: left;
+}
+
+header>ul>li>a:hover {
+    /* transform: scale(1.5);
+    letter-spacing: 0.05em; */
+    transform: scale(1.15);
+    letter-spacing: 0.08em;
+    opacity: 0.8;
+}
+
+form>img {
+    width: 700px;
+    height: 700px;
+}
+
+form>div {
+    margin-left: 60px;
+}
+
+form>div h1 {
+    margin-top: 40px;
+}
+
+form>div>h1 {
+    font-size: 6.25rem;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+form>div>h2 {
+    font-size: 3.75rem;
+    margin: 0px;
+}
+
+form>div>h3 {
+    font-size: 2rem;
+}
+
+form>div>div {
+    margin-top: 30px;
+    align-items: center;
+}
+
+form>div>div>.file-btn {
+  font-size: 30px;
+  padding: 10px 18px;
+  background: white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+form>div>div>span {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+form>div>input {
+    font-size: 40px;
+    padding: 10px 16px;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/gty3qlm.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h3>Calorie Calculation</h3>
+    <ul>
+      <li><a href="index.html">Input Information</a></li>
+      <li><a>Daily Intake</a></li>
+      <li><a>Data</a></li>
+    </ul>
+  </header>
+  <form action="http://192.168.1.16:8080/upload.php" method="post" class="container">
+    <img src="https://framerusercontent.com/images/O5eULn00hCqSVcewVBLJgutiyQ.webp" alt="">
+    <div class="form__conttent">
+      <h1>Input Information</h1>
+      <h2>Image upload</h2>
+      <h3>Please upload an image of food</h3>
+      <div class="input__button">
+        <label for="image" class="file-btn">Choose File</label>
+        <span id="file-name">No file chosen</span>
+        <input type="file" id="image" hidden>
+      </div>
+      <br>
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
