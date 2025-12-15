@@ -45,6 +45,24 @@ p {
     font-style: italic;
 }
 
+label {
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+span {
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+input {
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -100,11 +118,6 @@ form>div>h1 {
     margin-bottom: 10px;
 }
 
-form>div>h2 {
-    font-size: 3.75rem;
-    margin: 0px;
-}
-
 form>div>h3 {
     font-size: 2rem;
 }
@@ -118,9 +131,9 @@ form>div>div>.file-btn {
   font-size: 30px;
   padding: 10px 18px;
   background: white;
-  border: 1px solid black;
+  border: 3px solid black;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 20px;
 }
 
 form>div>div>span {
@@ -132,7 +145,7 @@ form>div>input {
     font-size: 40px;
     padding: 10px 16px;
     background: white;
-    border: 1px solid black;
+    border: 3px solid black;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 20px;
 }
