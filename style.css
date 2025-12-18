@@ -11,6 +11,9 @@ ul {
 
 li {
     list-style: none;
+    font-family: "capitolium-news-2", serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 a {
@@ -148,4 +151,12 @@ form>div>input {
     border: 3px solid black;
     cursor: pointer;
     border-radius: 20px;
+}
+
+.container>.Intake_information>h1 {
+    font-size: 6.25rem;
+}
+
+.container>.Intake_information>ul>li {
+    font-size: 2rem;
 }
