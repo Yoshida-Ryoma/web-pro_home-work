@@ -160,30 +160,3 @@ form>div>input {
 .container>.Intake_information>ul>li {
     font-size: 2rem;
 }
-
-.bar-chart-1 {
-    font-size: .9em;
-}
-
-.bar-chart-1 > div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 7px;
-}
-
-.bar-chart-1 dt {
-    width: 55px;
-    min-width: 55px;
-}
-
-.bar-chart-1 dd {
-    margin: 0;
-    padding-right: 15px;
-    border-radius: 3px;
-    background-color: #2589d0;
-    color: #fff;
-    font-weight: 600;
-    line-height: 45px;
-    text-align: right;
-    white-space: nowrap;
-}
